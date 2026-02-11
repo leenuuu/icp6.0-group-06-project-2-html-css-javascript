@@ -49,14 +49,17 @@ a {
 /* Start of cursor */
 
 #cursor{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     position: fixed;
-    top: 0%0%;
-    z-index: 99999;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 9;
     background-color: #FA4738;
     mix-blend-mode: difference;
+opacity: 0;
 }
 
 
@@ -309,7 +312,7 @@ width: 40px;
     margin: 0 auto;
 padding: 1vw 3vw;
 font-size: 1.4vw;
-font-family: h;
+font-family: h;z-index: 22;
 cursor: pointer;
 font-weight: 800;
 transition: linear .5s;
